@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.wallet-balance {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.portfolio-section {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.portfolio-header {
+  font-weight: bold;
+  margin-bottom: 5px;
+  background-color: lightgray;
+  padding: 10px;
+}
+.portfolio-list-item {
+  font-weight: bold;
+  font-size: 20px;
+}
+.stock-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.stock-info div {
+  flex-basis: calc(50% - 10px);
+}
+.stock-info p {
+  margin: 5px 0;
+}
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+
+
+}
+.buy-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+.sell-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
+#bc{
+  background-color: lightgray;
+  padding: 10px;
+  margin-left: 0px;
+}
+.alert{
+  width: 100%;
+  background-color: lightgreen; /* Green background */
+  color: black;
+  padding: 5px;
+  position: fixed;
+  top: 30px;
+  left: 0px;
+  right: 0px;
+  z-index: 1000;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.pp{
+  margin-top: 15px;
+}
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+}
+.empty-portfolio-message {
+  background-color: #FFF2CC; /* or the specific hex color code from your design */
+  color: #333; /* or whatever color your design requires */
+  text-align: center;
+  padding: 10px 0; /* adjust the padding to match your design */
+  margin: 0; /* removes default paragraph margin */
+  font-family: Arial, sans-serif; /* your desired font */
+  font-size: 1rem; /* your desired font size */
+  border: 1px solid #D6D6D6; /* your desired border color */
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); /* adjust as per your shadow requirement */
+}

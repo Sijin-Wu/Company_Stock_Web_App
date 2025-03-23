@@ -1,0 +1,79 @@
+.watchList {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.left-side, .right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side {
+  text-align: left;
+}
+
+.right-side {
+  text-align: right;
+  margin-left: auto; /* Align to the right */
+}
+
+/*.close-btn {*/
+/*  position: absolute;*/
+/*  top: 10px;*/
+/*  right: 10px;*/
+/*  border: none;*/
+/*  background: transparent;*/
+/*  cursor: pointer;*/
+/*}*/
+.close-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.ticker, .name, .price {
+  margin: 0;
+  padding: 2px 0;
+}
+
+.ticker{
+  font-size: 20px;
+}
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+}
+.empty-watchlist-message {
+  background-color: #FFF2CC; /* or the specific hex color code from your design */
+  color: #333; /* or whatever color your design requires */
+  text-align: center;
+  padding: 10px 0; /* adjust the padding to match your design */
+  margin: 0; /* removes default paragraph margin */
+  font-family: Arial, sans-serif; /* your desired font */
+  font-size: 1rem; /* your desired font size */
+  border: 1px solid #D6D6D6; /* your desired border color */
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); /* adjust as per your shadow requirement */
+}

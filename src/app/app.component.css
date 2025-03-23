@@ -1,0 +1,55 @@
+:host {
+  --content-padding: 10px;
+}
+header {
+  display: block;
+  height: 60px;
+  padding: var(--content-padding);
+  box-shadow: 0px 5px 25px var(--shadow-color);
+}
+.content {
+  padding: var(--content-padding);
+}
+
+.navbar {
+  background-color: #003366; /* Bootstrap primary color */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.navbar-brand {
+  margin-left: 10px;
+}
+.nav {
+  list-style: none;
+  display: flex;
+}
+.nav li {
+  padding: 0 15px;
+}
+.nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.nav li a:hover {
+  background-color: transparent;
+  border: 1px solid #cccccc;
+  border-radius: 10px
+}
+/* Add any necessary media queries for responsiveness */
+.powered-by-container {
+  background-color: grey; /* Replace with the specific grey color code if you have it */
+  text-align: center; /* This will center your text horizontally */
+  margin-top: 400px;
+  padding: 20px 0; /* Adjust the padding to match the image */
+}
+
+.powered-by-container a {
+  text-decoration: underline;
+  color: blue; /* Replace with the specific color code if you have it */
+  font-size: 16px; /* Adjust the font size to match the image */
+  /* Add any additional styling such as font-family or font-weight if needed */
+}
+

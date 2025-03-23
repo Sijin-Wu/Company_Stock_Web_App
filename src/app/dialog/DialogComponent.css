@@ -1,0 +1,88 @@
+.dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.dialog-content {
+  padding: 10px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.dialog-line {
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+.dialog-footer {
+  text-align: center;
+  margin-top: 10px;
+}
+.dialog-footer a {
+  color: #0000EE; /* Traditional hyperlink color */
+  text-decoration: none;
+}
+.dialog-footer a:hover {
+  text-decoration: underline;
+}
+.close-button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  margin-left: 100px;
+
+}
+.close-button:hover {
+  text-decoration: underline;
+}
+.headline {
+  font-weight: bold;
+}
+#datetime{
+  color: lightgrey;
+}
+
+.news-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 600px;
+  margin: auto;
+}
+.news-date {
+  color: #666;
+  margin: 0;
+}
+.news-title {
+  color: #1a1a1a;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.news-summary {
+  color: #333;
+  margin-bottom: 20px;
+}
+.social-icons {
+  /*display: flex;*/
+  /*justify-content: start;*/
+  /*gap: 10px;*/
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 10px; /* Adjust as necessary */
+}
+.social-icon {
+  /*cursor: pointer;*/
+  /*width: 32px; !* Adjust as needed *!*/
+  /*height: 32px; !* Adjust as needed *!*/
+  cursor: pointer;
+  margin-right: 15px; /* Space between icons */
+  height: 50px; /* Adjust the size as necessary */
+  width: 50px;/* Ad*/
+}
